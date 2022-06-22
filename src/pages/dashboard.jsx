@@ -1,22 +1,22 @@
 // --------------------------- IMPORTS --------------------------- //
 
 import Head from 'next/head'
-import * as S from '../styles/pages/Loading.js'
+import * as S from '../styles/pages/Dashboard.js'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-export default function Loading() {
+export default function Dashboard() {
   return (
     <>
       <Head>
-        <title>Carregando...</title>
-        <meta name="description" content="Tela de carregamento" />
+        <title>Dashboard V1</title>
+        <meta name="description" content="Página inicial da dashboard" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <S.LoadingPage>
-        Loading
-      </S.LoadingPage>
+      <S.DashboardPage>
+        Dashboard
+      </S.DashboardPage>
     </>
   )
 }

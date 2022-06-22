@@ -1,22 +1,22 @@
 // --------------------------- IMPORTS --------------------------- //
 
 import Head from 'next/head'
-import * as S from '../styles/pages/Loading.js'
+import * as S from '../styles/pages/Login.js'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-export default function Loading() {
+export default function Login() {
   return (
     <>
       <Head>
-        <title>Carregando...</title>
-        <meta name="description" content="Tela de carregamento" />
+        <title>Acesse sua conta</title>
+        <meta name="description" content="Página de acesso ao dashboard" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <S.LoadingPage>
-        Loading
-      </S.LoadingPage>
+      <S.LoginPage>
+        Login
+      </S.LoginPage>
     </>
   )
 }
