@@ -8,7 +8,15 @@ import * as S from './style.js'
 const Header = () => {
   return (
     <S.Header>
-      Header
+      <S.Logo>frontend.lab</S.Logo>
+      <S.Menu>
+        <li>home</li>
+        <li>tools</li>
+      </S.Menu>
+      <S.FelabTools>
+        <button>Web Filtro</button>
+        <button>Loja de Scripts</button>
+      </S.FelabTools>
     </S.Header>
   )
 }
