@@ -1,22 +1,22 @@
 // --------------------------- IMPORTS --------------------------- //
 
 import Head from 'next/head'
-import * as S from '../styles/pages/Dashboard.js'
+import * as S from '../styles/pages/store.js'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-export default function Dashboard() {
+export default function Store() {
   return (
     <>
       <Head>
-        <title>Dashboard V1</title>
-        <meta name="description" content="Página inicial da dashboard" />
+        <title>Script Store</title>
+        <meta name="description" content="Store" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <S.DashboardPage>
-        Dashboard
-      </S.DashboardPage>
+      <S.StorePage>
+        Store
+      </S.StorePage>
     </>
   )
 }

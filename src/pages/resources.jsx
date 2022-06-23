@@ -1,22 +1,22 @@
 // --------------------------- IMPORTS --------------------------- //
 
 import Head from 'next/head'
-import * as S from '../styles/pages/Login.js'
+import * as S from '../styles/pages/resources.js'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-export default function Login() {
+export default function Resources() {
   return (
     <>
       <Head>
-        <title>Acesse sua conta</title>
-        <meta name="description" content="Página de acesso ao dashboard" />
+        <title>Recursos</title>
+        <meta name="description" content="Recursos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <S.LoginPage>
-        Login
-      </S.LoginPage>
+      <S.ResourcesPage>
+        Recursos
+      </S.ResourcesPage>
     </>
   )
 }

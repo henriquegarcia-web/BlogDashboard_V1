@@ -1,22 +1,22 @@
 // --------------------------- IMPORTS --------------------------- //
 
 import Head from 'next/head'
-import * as S from '../styles/pages/home.js'
+import * as S from '../styles/pages/filter.js'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-export default function Home() {
+export default function Filter() {
   return (
     <>
       <Head>
-        <title>Home</title>
-        <meta name="description" content="Home" />
+        <title>Filter</title>
+        <meta name="description" content="Filter" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <S.HomePage>
-        Home
-      </S.HomePage>
+      <S.FilterPage>
+        Filter
+      </S.FilterPage>
     </>
   )
 }
