@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const ResourcesPage = styled.div`
+// export const ResourcesPage = styled.div`
   
-`
+// `

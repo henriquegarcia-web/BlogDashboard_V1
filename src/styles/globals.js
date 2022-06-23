@@ -42,12 +42,23 @@ const GlobalStyle = createGlobalStyle`
 
 export default GlobalStyle
 
-// export const Page = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: relative;
-//   width: 100%;
-//   padding: 70px 20px 20px 20px;
-//   box-sizing: border-box;
-// `
+export const Page = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 80px 20px 20px 20px;
+`
+
+export const PageContent = styled.main`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 20px; */
+
+  border: 1px solid red;
+`

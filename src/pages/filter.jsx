@@ -2,6 +2,9 @@
 
 import Head from 'next/head'
 import * as S from '../styles/pages/filter.js'
+import * as G from '../styles/globals.js'
+
+import Header from '../components/Header/index.jsx'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
@@ -14,9 +17,14 @@ export default function Filter() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <S.FilterPage>
-        Filter
-      </S.FilterPage>
+      <G.Page>
+
+        <Header />
+
+        <G.PageContent>
+          
+        </G.PageContent>
+      </G.Page>
     </>
   )
 }
