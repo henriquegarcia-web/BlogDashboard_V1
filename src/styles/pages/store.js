@@ -60,7 +60,7 @@ export const Category = styled.div`
   border-radius: 100px;
   cursor: pointer;
 
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px;
   
   color: ${colors.font_white_secondary};
@@ -68,6 +68,11 @@ export const Category = styled.div`
   background-color: ${colors.main};
 
   &:hover {
+    color: ${colors.font_white};
+  }
+
+  &.active {
+    font-weight: 500;
     color: ${colors.font_white};
   }
 `

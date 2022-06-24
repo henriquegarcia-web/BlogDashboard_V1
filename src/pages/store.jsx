@@ -36,10 +36,10 @@ export default function Store() {
             </S.ScriptStoreHeader>
 
             <S.CategoriesContainer>
+              <S.Category className='active'>Todos</S.Category>
               <S.Category>Scripts</S.Category>
               <S.Category>Templates</S.Category>
               <S.Category>Websites</S.Category>
-              <S.Category>Aplicativos</S.Category>
             </S.CategoriesContainer>
 
             <S.ProductListContainer>

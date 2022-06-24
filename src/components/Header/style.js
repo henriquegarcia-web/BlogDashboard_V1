@@ -21,6 +21,7 @@ export const Logo = styled.h1`
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 1px;
+  cursor: pointer;
 
   font-family: 'Baloo Paaji 2', cursive;
 `

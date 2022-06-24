@@ -10,7 +10,7 @@ import Link from 'next/link';
 const Header = ({ active }) => {
   return (
     <S.Header>
-      <S.Logo>frontend.lab</S.Logo>
+      <Link href='/'><S.Logo>frontend.lab</S.Logo></Link>
       <S.Menu>
         <Link href='/'><li className={active === 'home' ? 'active' : ''}>home</li></Link>
         <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>felabTools</li></Link>
