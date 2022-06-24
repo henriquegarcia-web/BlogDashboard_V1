@@ -5,16 +5,15 @@ import * as S from './style.js'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-const Header = () => {
+const Header = ({ active }) => {
   return (
     <S.Header>
       <S.Logo>frontend.lab</S.Logo>
       <S.Menu>
-        <li>home</li>
-        <li>tools</li>
+        <li className={active === 'home' ? 'active' : ''}>home</li>
+        <li className={active === 'tools' ? 'active' : ''}>felabTools</li>
       </S.Menu>
       <S.FelabTools>
-        <button>Web Filtro</button>
         <button>Loja de Scripts</button>
       </S.FelabTools>
     </S.Header>
