@@ -21,6 +21,7 @@ export default function Resources() {
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
       </Head>
 
       <G.Page>
@@ -30,13 +31,14 @@ export default function Resources() {
         <G.PageContent>
           
           <S.ToolsContainer>
-            <S.ToolsHeader>
+            <S.ToolsHeader className='animate__animated animate__fadeInDown'>
               <h2>Soluções em desenvolvimento | <b>FELAB Tools</b></h2>
               <p>Conheça nossas ferramentas front-end com previsão de lançamento ainda em 2022</p>
             </S.ToolsHeader>
             <S.SolutionsWrapper>
 
               <SolutionContainer 
+                animation='animate__fadeInBottomLeft'
                 iconClass='webFilter'
                 icon={<I.FiSearch />}
                 title='FELAB Web Filtro'
@@ -45,6 +47,7 @@ export default function Resources() {
               />
 
               <SolutionContainer 
+                animation='animate__fadeInBottomRight'
                 iconClass='code'
                 icon={<I.FiCode />}
                 title='FELAB Code'
@@ -61,12 +64,12 @@ export default function Resources() {
   )
 }
 
-export const SolutionContainer = ({ iconClass, icon, title, subtitle, details }) => {
+export const SolutionContainer = ({ animation, iconClass, icon, title, subtitle, details }) => {
 
   const [activeDetails, setActiveDetails] = useState(false)
 
   return (
-    <S.SolutionContainer>
+    <S.SolutionContainer className={'animate__animated '+animation}>
       <S.SolutionImageContainer>
         <S.SolutionImage className={iconClass}></S.SolutionImage>
       </S.SolutionImageContainer>

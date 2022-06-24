@@ -13,18 +13,20 @@ export const HomeContainer = styled.div`
 `
 
 export const Title = styled.div`
-  font-size: 28px;
-  font-weight: 800;
   text-align: center;
   margin-bottom: 30px;
-  font-family: 'Baloo Paaji 2', cursive;
   line-height: 60px;
 
-  b {
-    font-size: 80px;
+  p {
+    font-size: 30px;
     font-weight: 800;
     font-family: 'Baloo Paaji 2', cursive;
-    /* font-family: 'Ruda', sans-serif; */
+  }
+
+  b {
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Baloo Paaji 2', cursive;
   }
 `
 

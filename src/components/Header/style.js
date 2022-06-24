@@ -2,6 +2,7 @@ import styled from "styled-components";
 import colors from "../../styles/colors";
 
 export const Header = styled.div`
+  z-index: 1000;
   position: absolute;
   left: 0;
   top: 0;
@@ -51,7 +52,7 @@ export const Menu = styled.ul`
 
     &.active {
       /* background-color: ${colors.main}; */
-      border-bottom: 2px solid ${colors.alternative};
+      border-bottom: 2px solid ${colors.font_white};
       color: ${colors.font_white};
     }
   }

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Home | frontend.lab</title>
         <meta name="description" content="Home" />
         <link rel="icon" href="/favicon.ico" />
 
@@ -22,6 +22,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
       
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
       </Head>
 
       <G.Page>
@@ -32,14 +33,15 @@ export default function Home() {
 
           <S.HomeContainer>
             <S.Title>
-              Bem-vindo ao <br /> <b>frontend.lab</b>
+              <p className='animate__animated animate__fadeInDown'>Bem-vindo ao</p>
+              <b>frontend.lab</b>
             </S.Title>
-            <S.Legend>
+            <S.Legend className='animate__animated animate__fadeInUp'>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.
             </S.Legend>
             <S.Input>
-              <button>Loja de Scripts</button>
-              <button>Ferramentas Dev</button>
+              <button className='animate__animated animate__fadeInBottomLeft'>Loja de Scripts</button>
+              <button className='animate__animated animate__fadeInBottomRight'>Ferramentas Dev</button>
             </S.Input>
           </S.HomeContainer>
 
