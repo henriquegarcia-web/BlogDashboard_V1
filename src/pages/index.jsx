@@ -2,6 +2,7 @@
 // --------------------------- IMPORTS --------------------------- //
 
 import Head from 'next/head'
+import Link from 'next/link';
 import * as S from '../styles/pages/home.js'
 import * as G from '../styles/globals.js'
 
@@ -40,8 +41,8 @@ export default function Home() {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.
             </S.Legend>
             <S.Input>
-              <button className='animate__animated animate__fadeInBottomLeft'>Loja de Scripts</button>
-              <button className='animate__animated animate__fadeInBottomRight'>Ferramentas Dev</button>
+              <Link href='/store'><button className='animate__animated animate__fadeInBottomLeft'>Loja de Scripts</button></Link>
+              <Link href='/tools'><button className='animate__animated animate__fadeInBottomRight'>Ferramentas Dev</button></Link>
             </S.Input>
           </S.HomeContainer>
 

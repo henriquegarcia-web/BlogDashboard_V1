@@ -40,9 +40,6 @@ export default function Store() {
               <S.Category>Templates</S.Category>
               <S.Category>Websites</S.Category>
               <S.Category>Aplicativos</S.Category>
-              {/* <S.Category>HTML, CSS e JS</S.Category>
-              <S.Category>HTML, SASS e JS</S.Category>
-              <S.Category>React</S.Category> */}
             </S.CategoriesContainer>
 
             <S.ProductListContainer>
