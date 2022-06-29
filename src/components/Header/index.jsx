@@ -14,12 +14,12 @@ const Header = ({ active }) => {
       <S.Menu>
         <Link href='/'><li className={active === 'home' ? 'active' : ''}>Início</li></Link>
         <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>FELAB Tools</li></Link>
-        <Link href='/'><li className={active === 'aboutUs' ? 'active' : ''}>Sobre a plataforma</li></Link>
+        <Link href='/about'><li className={active === 'about' ? 'active' : ''}>Sobre a plataforma</li></Link>
       </S.Menu>
       <S.FelabTools>
         {/* <Link href='/store'><button>Loja de Scripts</button></Link> */}
-        <Link href='/'><button>Entrar</button></Link>
-        <Link href='/'><button>Cadastre-se</button></Link>
+        <Link href='/login'><button>Entrar</button></Link>
+        <Link href='/register'><button>Cadastre-se</button></Link>
       </S.FelabTools>
     </S.Header>
   )

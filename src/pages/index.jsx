@@ -1,30 +1,18 @@
-/* eslint-disable @next/next/no-page-custom-font */
 // --------------------------- IMPORTS --------------------------- //
 
-import Head from 'next/head'
 import Link from 'next/link';
 import * as S from '../styles/pages/home.js'
 import * as G from '../styles/globals.js'
 
 import Header from '../components/Header/index.jsx'
+import NextHead from '../components/NextHead/index.jsx';
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Home | frontend.lab</title>
-        <meta name="description" content="Home" />
-        <link rel="icon" href="/favicon.ico" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
-      
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-      </Head>
+      <NextHead title='Início' description='' />
 
       <G.Page>
 
@@ -41,7 +29,7 @@ export default function Home() {
               <h2>A <b>frontend.lab</b> é uma plataforma online para desenvolvedores front-end</h2>
             </S.Legend>
             <S.Input>
-              <Link href='/store'><button className='animate__animated animate__fadeInBottomLeft'>Acessar a plataforma</button></Link>
+              <Link href='/login'><button className='animate__animated animate__fadeInBottomLeft'>Acessar a plataforma</button></Link>
               <Link href='/tools'><button className='animate__animated animate__fadeInBottomRight'>Ferramentas para devs</button></Link>
             </S.Input>
           </S.HomeContainer>

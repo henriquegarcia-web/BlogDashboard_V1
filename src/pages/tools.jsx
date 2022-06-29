@@ -1,28 +1,20 @@
 /* eslint-disable @next/next/no-page-custom-font */
 // --------------------------- IMPORTS --------------------------- //
 
-import Head from 'next/head'
 import * as S from '../styles/pages/tools.js'
 import * as G from '../styles/globals.js'
 import * as I from 'react-icons/fi'
 
+import NextHead from '../components/NextHead/index.jsx'
 import Header from '../components/Header/index.jsx'
 import { useState } from 'react'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
-export default function Resources() {
+export default function Tools() {
   return (
     <>
-      <Head>
-        <title>Ferramentas | frontend.lab</title>
-        <meta name="description" content="Recursos" />
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
-
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-      </Head>
+      <NextHead title='FELAB Tools | Soluções' description='' />
 
       <G.Page>
 
