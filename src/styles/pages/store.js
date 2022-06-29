@@ -79,8 +79,12 @@ export const Category = styled.div`
 
 export const ProductListContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  /* flex-wrap: wrap;
+  align-content: flex-start; */
+
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
   max-width: 1200px;
   height: calc(100% - 250px);
@@ -88,6 +92,39 @@ export const ProductListContainer = styled.div`
   overflow: auto;
 
   /* border: 2px solid orange; */
+`
+
+export const InProgressAlert = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+
+  /* border: 2px solid orange; */
+
+  img {
+    max-width: 240px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+
+    font-family: 'Baloo Paaji 2', cursive;
+
+    b {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 10px;
+
+      font-family: 'Baloo Paaji 2', cursive;
+    }
+  }
 `
 
 // ----------------------------------------- STORE ITEM

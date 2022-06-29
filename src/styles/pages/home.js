@@ -31,11 +31,26 @@ export const Title = styled.div`
 `
 
 export const Legend = styled.div`
-  font-size: 20px;
-  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-bottom: 80px;
-  line-height: 28px;
+  margin-bottom: 100px;
+
+  h2 {
+    max-width: 90%;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+
+    font-family: 'Baloo Paaji 2', cursive;
+
+    b {
+      font-weight: 700;
+
+      font-family: 'Baloo Paaji 2', cursive;
+    }
+  }
 `
 
 export const Input = styled.div`
@@ -44,19 +59,26 @@ export const Input = styled.div`
   button {
     padding: 6px 22px;
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 400;
     /* text-transform: uppercase; */
     border-radius: 100px;
     cursor: pointer;
     margin-right: 15px;
     line-height: 30px;
+    transition: .2s ease;
 
     font-family: 'Baloo Paaji 2', cursive;
-    background: ${colors.main};
-    color: white;
+    background: ${colors.background};
+    color: ${colors.font_white_secondary};
+    outline: 2px solid transparent;
 
     &:last-of-type {
       margin-right: 0;
+    }
+
+    &:hover {
+      color: ${colors.font_white};
+      outline: 2px solid white;
     }
   }
 `

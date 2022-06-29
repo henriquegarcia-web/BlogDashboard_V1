@@ -16,7 +16,9 @@ const Header = ({ active }) => {
         <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>felabTools</li></Link>
       </S.Menu>
       <S.FelabTools>
-        <Link href='/store'><button>Loja de Scripts</button></Link>
+        {/* <Link href='/store'><button>Loja de Scripts</button></Link> */}
+        <Link href='/'><button>Entrar</button></Link>
+        <Link href='/'><button>Cadastre-se</button></Link>
       </S.FelabTools>
     </S.Header>
   )

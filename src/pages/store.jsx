@@ -6,6 +6,7 @@ import * as S from '../styles/pages/store.js'
 import * as G from '../styles/globals.js'
 
 import Header from '../components/Header/index.jsx'
+// import { InProgressSVG } from './undraw_project.svg'
 
 // --------------------- COMPONENTE PRINCIAL --------------------- //
 
@@ -32,7 +33,7 @@ export default function Store() {
 
             <S.ScriptStoreHeader>
               <h2>Marketplace</h2>
-              <p>Websites, Apps, Scripts e Templates com HTML, CSS, JS e React</p>
+              <p>Websites, Apps, Scripts e Templates com JS e React</p>
             </S.ScriptStoreHeader>
 
             <S.CategoriesContainer>
@@ -43,7 +44,16 @@ export default function Store() {
             </S.CategoriesContainer>
 
             <S.ProductListContainer>
-              <StoreItem 
+
+              <S.InProgressAlert className='animate__animated animate__fadeIn'>
+                <img src='/undraw_project3.svg' alt="" />
+                <p>
+                  <b>ESTAMOS QUASE LÁ...</b>
+                  A loja ainda ainda está sendo desenvolvida
+                </p>
+              </S.InProgressAlert>
+
+              {/* <StoreItem 
                 url='/Ref_01.png'
                 title='Template 01'
                 legend='Design de comida saudável'
@@ -103,6 +113,18 @@ export default function Store() {
                 legend=''
                 price='19,90'
               />
+              <StoreItem 
+                url='/Ref_10.png'
+                title='Template 10'
+                legend=''
+                price='19,90'
+              />
+              <StoreItem 
+                url='/Ref_10.png'
+                title='Template 10'
+                legend=''
+                price='19,90'
+              /> */}
             </S.ProductListContainer>
 
           </S.ScriptStore>

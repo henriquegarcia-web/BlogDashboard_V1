@@ -34,11 +34,11 @@ export default function Home() {
 
           <S.HomeContainer>
             <S.Title>
-              <p className='animate__animated animate__fadeInDown'>Bem-vindo ao</p>
+              <p className='animate__animated animate__fadeInDown'>Bem-vindo a</p>
               <b>frontend.lab</b>
             </S.Title>
             <S.Legend className='animate__animated animate__fadeInUp'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.
+              <h2>A <b>frontend.lab</b> é uma plataforma online para desenvolvedores front-end</h2>
             </S.Legend>
             <S.Input>
               <Link href='/store'><button className='animate__animated animate__fadeInBottomLeft'>Loja de Scripts</button></Link>
