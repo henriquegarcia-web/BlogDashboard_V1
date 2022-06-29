@@ -29,7 +29,7 @@ export default function Home() {
               <h2>A <b>frontend.lab</b> é uma plataforma online para desenvolvedores front-end</h2>
             </S.Legend>
             <S.Input>
-              <Link href='/login'><button className='animate__animated animate__fadeInBottomLeft'>Acessar a plataforma</button></Link>
+              <Link href='/sign-in'><button className='animate__animated animate__fadeInBottomLeft'>Acessar a plataforma</button></Link>
               <Link href='/tools'><button className='animate__animated animate__fadeInBottomRight'>Ferramentas para devs</button></Link>
             </S.Input>
           </S.HomeContainer>

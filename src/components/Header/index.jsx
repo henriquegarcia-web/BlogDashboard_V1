@@ -18,8 +18,8 @@ const Header = ({ active }) => {
       </S.Menu>
       <S.FelabTools>
         {/* <Link href='/store'><button>Loja de Scripts</button></Link> */}
-        <Link href='/login'><button>Entrar</button></Link>
-        <Link href='/register'><button>Cadastre-se</button></Link>
+        <Link href='/sign-in'><button>Entrar</button></Link>
+        <Link href='/sign-up'><button>Cadastre-se</button></Link>
       </S.FelabTools>
     </S.Header>
   )
