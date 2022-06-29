@@ -13,7 +13,7 @@ const Header = ({ active }) => {
       <Link href='/'><S.Logo>frontend.lab</S.Logo></Link>
       <S.Menu>
         <Link href='/'><li className={active === 'home' ? 'active' : ''}>Início</li></Link>
-        <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>FELAB Tools</li></Link>
+        <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>Ferramentas</li></Link>
         <Link href='/about'><li className={active === 'about' ? 'active' : ''}>Sobre a plataforma</li></Link>
       </S.Menu>
       <S.FelabTools>

@@ -30,7 +30,7 @@ export default function Home() {
             </S.Legend>
             <S.Input>
               <Link href='/sign-in'><button className='animate__animated animate__fadeInBottomLeft'>Acessar a plataforma</button></Link>
-              <Link href='/tools'><button className='animate__animated animate__fadeInBottomRight'>Ferramentas para devs</button></Link>
+              <Link href='/tools'><button className='animate__animated animate__fadeInBottomRight'>Ferramentas front-end</button></Link>
             </S.Input>
           </S.HomeContainer>
 
