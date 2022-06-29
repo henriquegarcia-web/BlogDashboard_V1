@@ -12,8 +12,9 @@ const Header = ({ active }) => {
     <S.Header>
       <Link href='/'><S.Logo>frontend.lab</S.Logo></Link>
       <S.Menu>
-        <Link href='/'><li className={active === 'home' ? 'active' : ''}>home</li></Link>
-        <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>felabTools</li></Link>
+        <Link href='/'><li className={active === 'home' ? 'active' : ''}>Início</li></Link>
+        <Link href='/tools'><li className={active === 'tools' ? 'active' : ''}>FELAB Tools</li></Link>
+        <Link href='/'><li className={active === 'aboutUs' ? 'active' : ''}>Sobre a plataforma</li></Link>
       </S.Menu>
       <S.FelabTools>
         {/* <Link href='/store'><button>Loja de Scripts</button></Link> */}

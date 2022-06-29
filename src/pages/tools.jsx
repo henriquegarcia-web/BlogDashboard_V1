@@ -32,8 +32,8 @@ export default function Resources() {
           
           <S.ToolsContainer>
             <S.ToolsHeader className='animate__animated animate__fadeInDown'>
-              <h2>Soluções em desenvolvimento | <b>FELAB Tools</b></h2>
-              <p>Conheça nossas ferramentas front-end com previsão de lançamento ainda em 2022</p>
+              <h2>Soluções da frontend.lab | <b>FELAB Tools</b></h2>
+              <p>Conheça nossas ferramentas front-end disponíveis e com previsão de lançamento</p>
             </S.ToolsHeader>
             <S.SolutionsWrapper>
 

@@ -56,7 +56,7 @@ export const SolutionContainer = styled.div`
   width: calc(50% - 20px);
   height: fit-content;
   margin-bottom: 20px;
-  border-radius: 4px;
+  border-radius: 15px;
   padding: 25px;
 
   color: white;
@@ -74,7 +74,7 @@ export const SolutionContainer = styled.div`
 export const SolutionImageContainer = styled.div`
   width: 100%;
   height: 150px;
-  border-radius: 4px;
+  border-radius: 12px;
   overflow: hidden;
 `
 
